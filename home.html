@@ -5,70 +5,73 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <header class="page-header">
-        <div class="header-nav">
-            <div class="container">
-                <span class="nav-left">Free shipping on domestic orders over $150</span>
-                <ul class="nav-right">
-                    <li><a href="">Login</a> / <a href="">Register</a></li>
-                    <li>Language : <span data-toggle="dropdown" id="language-dropdown"></span>
-                        <ul>
-                            <li><a href="/" alt="en">English</a></li>
-                            <li><a href="/" alt="fr">Français</a></li>
-                            <li><a href="/" alt="es">Español</a></li>
-                            <li><a href="/" alt="de">Deutsch</a></li>
-                            <li><a href="/" alt="pl">Polski</a></li>
-                            <li><a href="/" alt="it">Italiano</a></li>
-                            <li><a href="/" alt="nl">Nederlands</a></li>
-                            <li><a href="/" alt="ru">Русский</a></li>
-                            <li><a href="/" alt="ar">اللغة العربية</a></li>
+        <div class="header-top">
+            <div class="container inline-content">
+                <span class="header-content">Free shipping on domestic orders over $150</span>
+                <ul class="header-action">
+                    <li><a class="user-info" href="/">Login</a> / <a class="user-info" href="/">Register</a></li>
+                    <li class="language-dropdown">Language : <span class="expand-more" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false" id="language-dropdown">En<span
+                                class="dropdown-arrow"></span></span>
+                        <ul class="language-menu">
+                            <li><a href="" alt="en">English</a></li>
+                            <li><a href="" alt="fr">Français</a></li>
+                            <li><a href="" alt="es">Español</a></li>
+                            <li><a href="" alt="de">Deutsch</a></li>
+                            <li><a href="" alt="pl">Polski</a></li>
+                            <li><a href="" alt="it">Italiano</a></li>
+                            <li><a href="" alt="nl">Nederlands</a></li>
+                            <li><a href="" alt="ru">Русский</a></li>
+                            <li><a href="" alt="ar">اللغة العربية</a></li>
                         </ul>
                     </li>
-                    <li>Currency : <span data-toggle="dropdown" id="currency-dropdown"></span>
-                        <ul>
-                            <li><a href=""></a></li>
-                            <li><a href=""></a></li>
+                    <li class="currency-dropdown">Currency : <span class="expand-more" data-toggle="dropdown"
+                            id="currency-dropdown">EUR</span>
+                        <ul class="currency-menu">
+                            <li><a href=""></a>EUR</li>
+                            <li><a href=""></a>USD</li>
                         </ul>
                     </li>
                 </ul>
             </div>
         </div>
-        <div class="header-top">
-            <div class="container">
+        <div class="header-bottom">
+            <div class="container inline-content">
                 <a href="/" class="logo">
-                    <img src="" alt="logo">
+                    <img src="https://demo.codezeel.com/prestashop/PRS15/PRS150372/img/demo-store-logo-1599648370.jpg"
+                        alt="logo">
                 </a>
-                <ul class="header-menu">
-                    <li><a href="/">Fashion</a></li>
-                    <li><a href="/">Girls Dress</a></li>
-                    <li><a href="/">Men Shoes</a></li>
-                    <li><a href="/">Men Shirt</a></li>
-                    <li><a href="/">Blog</a></li>
-                    <li><a href="/">More</a></li>
-                </ul>
+                <nav class="header-nav">
+                    <ul>
+                        <li><a href=""></a>Fashion</li>
+                        <li><a href=""></a>Girls Dress</li>
+                        <li><a href=""></a>Men Shoes</li>
+                        <li><a href=""></a>Men Shirt</li>
+                        <li><a href=""></a>Blog</li>
+                        <li><a href=""></a>More</li>
+                    </ul>
+                </nav>
                 <ul class="header-action">
-                    <li><a href="/"><i></i></a></li>
-                    <li><a href="/"><i></i></a></li>
-                    <li><a href="/"><i></i></a></li>
+                    <li class="search-button"><a class="white-text" href="/">.</a></li>
+                    <li class="favorite-button"><a class="white-text" href="/">.</a></li>
+                    <li class="cart-button"><a class="white-text" href="/"></a>.</li>
                 </ul>
             </div>
-
         </div>
     </header>
-    <main class=" page-main">
+    <main class="page-main">
         <section class="section-slider">
-            <ul class="section-slider-top">
-                <li><a href=""></a></li>
-                <li><a href=""></a></li>
-                <li><a href=""></a></li>
-            </ul>
-            <div class="section-slider-bottom">
+            <img class="slider-top"
+                src="https://demo.codezeel.com/prestashop/PRS15/PRS150372/modules/cz_imageslider/views/img/sample-1.jpg">
+            <div class="slider-bottom">
                 <div class="container">
                     <ul class="slider-list">
-                        <li><a href=""><i></i>Women T-Shirt</a></li>
+                        <li><a href=""><i class="cate-icon"></i>Women T-Shirt</a></li>
                         <li><a href=""><i></i>Girls Dress</a></li>
                         <li><a href=""><i></i>Men Shoes</a></li>
                         <li><a href=""><i></i>Men Shirt</a></li>
@@ -88,22 +91,51 @@
                     <li><a href="">Women T-Shirt</a></li>
                     <li><a href="">Jackets & Blaze</a></li>
                 </ul>
-                <ul class="product-grid">
-                    <li class="product-item">
+                <ul class="product-list">
+                    <li class="product-item col4">
                         <div class="product-item-container">
                             <a href="
-                            /"><img src="" alt="">
+                            /"><img src="https://demo.codezeel.com/prestashop/PRS15/PRS150372/img/p/2/2-home_default.jpg"
+                                    alt="">
                             </a>
-
+                            <i></i>
+                            <h3>Consectetur Hampden</h3>
+                            <span>$117.44</span><span>-20%</span><span>$93.95</span>
                         </div>
                     </li>
-                    <li class="product-item"></li>
-                    <li class="product-item"></li>
-                    <li class="product-item"></li>
-                    <li class="product-item"></li>
-                    <li class="product-item"></li>
-                    <li class="product-item"></li>
-                    <li class="product-item"></li>
+                    <li class="product-item col4">
+                        <div class="product-item-container">
+                            <a href="
+                            /"><img src="https://demo.codezeel.com/prestashop/PRS15/PRS150372/img/p/8/8-home_default.jpg"
+                                    alt="">
+                            </a>
+                            <i></i>
+                            <h3>Consectetur Hampden Omnis</h3>
+                            <span>$97.44</span>
+                        </div>
+                    </li>
+                    <li class="product-item col4">
+                        <div class="product-item-container">
+                            <a href="
+                            /"><img src="https://demo.codezeel.com/prestashop/PRS15/PRS150372/img/p/2/0/20-home_default.jpg"
+                                    alt="">
+                            </a>
+                            <i></i>
+                            <h3>Consectetur Hampden</h3>
+                            <span>$117.44</span><span>-20%</span><span>$93.95</span>
+                        </div>
+                    </li>
+                    <li class="product-item col4">
+                        <div class="product-item-container">
+                            <a href="
+                            /"><img src="https://demo.codezeel.com/prestashop/PRS15/PRS150372/img/p/2/0/20-home_default.jpg"
+                                    alt="">
+                            </a>
+                            <i></i>
+                            <h3>Consectetur Hampden</h3>
+                            <span>$117.44</span><span>-20%</span><span>$93.95</span>
+                        </div>
+                    </li>
                 </ul>
             </div>
         </section>
