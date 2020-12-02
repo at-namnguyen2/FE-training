@@ -1,0 +1,182 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 13px;
+    font-size: 400;
+    color: #888;
+    background: #FFF;
+    margin: 0;
+}
+a {
+    color: #FFF;
+    text-decoration: none;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+img .header-top .slider-bottom { 
+    max-width: 100%;
+}
+.container {
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.header-top {
+    background: #262626;
+    padding: 15px 0;
+}
+.header-bottom {
+    background: #FFF;
+    padding: 30px 0;
+    color: #262626;
+}
+
+.inline-content {
+    display: flex;
+    justify-content: space-between;
+}
+.header-nav {
+    margin: auto 0;
+    font-size: 14px;
+}
+
+.header-nav ul, .header-action, .slider-list, .latest-product-menu, .product-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.language-menu {
+    position: absolute;
+    top: 0;
+    padding: 5px 5px;
+    display: none;
+    float: left;
+    color: gray;
+    text-align: left;
+    left: 0;
+    border: 1px solid #ddd;
+    min-width: 170px;
+}
+.user-info {
+    color: #888;
+}
+
+.user-info:hover, .expand-more:hover {
+    user-select: none;
+    color: #ebb5ac;
+} 
+
+.header-action li {
+    padding: 0 10px;
+}
+.language-dropdown .expand-more:hover  + .language-menu,
+.language-menu:hover {
+    display: block;
+}
+
+.expand-more:hover  + .dropdown-menu,
+.dropdown-menu:hover {
+    display: block;
+}
+.currency-dropdown .expand-more:hover  + .currency-menu,
+.currency-menu:hover {
+    display: block;
+}
+.currency-menu {
+    position: absolute;
+    top: 0;
+    padding: 5px 5px;
+    display: none;
+    float: left;
+    color: gray;
+    text-align: left;
+    left: 0;
+    border: 1px solid #ddd;
+    min-width: 170px;
+}
+
+.header-nav li {
+    padding: 0 20px;
+}
+
+.header-bottom .header-action li {
+    display: block;
+    color: #262626;
+    font-weight: 500;
+    letter-spacing: .6px;
+    text-align: center;
+    cursor: pointer;
+    z-index: 9;
+    padding: 0 20px;
+    transition: none;
+    background-repeat: no-repeat;
+    background-position: center left;
+    background-size: 20px;
+    background-color: transparent;
+}
+.search-button {
+    background-image: url(data:image/svg+xml;base64,PHN2ZyBjbGFzcz0ic2VyY2hfc3ZnIiBmaWxsPSIjMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMCAzMCIgd2lkdGg9IjUwcHgiIGhlaWdodD0iNTBweCI+DQo8cGF0aCBkPSJNIDEzIDMgQyA3LjQ4ODk5NzEgMyAzIDcuNDg4OTk3MSAzIDEzIEMgMyAxOC41MTEwMDMgNy40ODg5OTcxIDIzIDEzIDIzIEMgMTUuMzk2NTA4IDIzIDE3LjU5NzM4NSAyMi4xNDg5ODYgMTkuMzIyMjY2IDIwLjczNjMyOCBMIDI1LjI5Mjk2OSAyNi43MDcwMzEgQSAxLjAwMDEgMS4wMDAxIDAgMSAwIDI2LjcwNzAzMSAyNS4yOTI5NjkgTCAyMC43MzYzMjggMTkuMzIyMjY2IEMgMjIuMTQ4OTg2IDE3LjU5NzM4NSAyMyAxNS4zOTY1MDggMjMgMTMgQyAyMyA3LjQ4ODk5NzEgMTguNTExMDAzIDMgMTMgMyB6IE0gMTMgNSBDIDE3LjQzMDEyMyA1IDIxIDguNTY5ODc3NCAyMSAxMyBDIDIxIDE3LjQzMDEyMyAxNy40MzAxMjMgMjEgMTMgMjEgQyA4LjU2OTg3NzQgMjEgNSAxNy40MzAxMjMgNSAxMyBDIDUgOC41Njk4Nzc0IDguNTY5ODc3NCA1IDEzIDUgeiIvPjwvc3ZnPg==);
+}
+.favorite-button { 
+    background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/PjwhRE9DVFlQRSBzdmcgIFBVQkxJQyAnLS8vVzNDLy9EVEQgU1ZHIDEuMC8vRU4nICAnaHR0cDovL3d3dy53My5vcmcvVFIvMjAwMS9SRUMtU1ZHLTIwMDEwOTA0L0RURC9zdmcxMC5kdGQnPjxzdmcgZW5hYmxlLWJhY2tncm91bmQ9Im5ldyAwIDAgMjQgMjQiIGlkPSJMYXllcl8xIiB2ZXJzaW9uPSIxLjAiIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI+PHBhdGggZD0iTTE2LjQsNmMyLDAsMy42LDEuNiwzLjYsMy42YzAsMi0zLjksNi40LTgsOS44Yy00LjEtMy41LTgtNy45LTgtOS44QzQsNy42LDUuNiw2LDcuNiw2QzEwLDYsMTIsOSwxMiw5UzEzLjksNiwxNi40LDYgICBNMTYuNCw0QzE0LjYsNCwxMyw0LjksMTIsNi4zQzExLDQuOSw5LjQsNCw3LjYsNEM0LjUsNCwyLDYuNSwyLDkuNkMyLDE0LDEyLDIyLDEyLDIyczEwLTgsMTAtMTIuNEMyMiw2LjUsMTkuNSw0LDE2LjQsNEwxNi40LDR6Ii8+PC9zdmc+);
+}
+.cart-button { 
+    background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/PjwhRE9DVFlQRSBzdmcgIFBVQkxJQyAnLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4nICAnaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkJz48c3ZnIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDQ4IDQ4IiBoZWlnaHQ9IjQ4cHgiIGlkPSJMYXllcl8xIiB2ZXJzaW9uPSIxLjEiIHZpZXdCb3g9IjAgMCA0OCA0OCIgd2lkdGg9IjQ4cHgiIHhtbDpzcGFjZT0icHJlc2VydmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPjxwYXRoIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTQzLDQ2SDVjLTIuMjA5LDAtNC0xLjc5MS00LTRsNC0yNGMwLjY3OC0zLjQ0MiwyLjY2OC00LDQuODc3LTRoMi42NTIgIEMxNC4wMzcsNy4wNTIsMTguNjAyLDIsMjQsMnM5Ljk2Myw1LjA1MiwxMS40NzEsMTJoMi42NTJjMi4yMDksMCw0LjE5OSwwLjU1OCw0Ljg3Nyw0bDQsMjRDNDcsNDQuMjA5LDQ1LjIwOSw0Niw0Myw0NnogTTI0LDQgIGMtNC4zNTIsMC04LjA0NSw0LjE3OC05LjQxOCwxMGgxOC44MzdDMzIuMDQ1LDguMTc4LDI4LjM1Myw0LDI0LDR6IE00MSwxOGMtMC4zMDgtMS4zNTEtMC45NTctMi0yLjM3LTJoLTIuODI4ICBDMzUuOTI1LDE2Ljk3NiwzNiwxNy45NzUsMzYsMTljMCwwLjU1Mi0wLjQ0NywxLTEsMXMtMS0wLjQ0OC0xLTFjMC0xLjAyNy0wLjA2OS0yLjAzMS0wLjIwMS0zSDE0LjIwMUMxNC4wNywxNi45NjksMTQsMTcuOTczLDE0LDE5ICBjMCwwLjU1Mi0wLjQ0NywxLTEsMXMtMS0wLjQ0OC0xLTFjMC0xLjAyNSwwLjA3NS0yLjAyNCwwLjE5Ny0zSDkuMzY5QzcuOTU3LDE2LDcuMzA5LDE2LjY0OSw3LDE4TDMsNDJjMCwxLjEwNCwwLjg5NiwyLDIsMmgzOCAgYzEuMTA0LDAsMi0wLjg5NiwyLTJMNDEsMTh6IiBmaWxsLXJ1bGU9ImV2ZW5vZGQiLz48L3N2Zz4=);
+}
+.white-text {
+    color: #FFF;
+}
+
+.slider-top {
+    display: inline;
+    height: 599px;
+    width: 1440px;
+}
+.slider-bottom {
+    background: #262626;
+    padding: 30px 0;
+}
+.slider-list li {
+    padding: 0 10px;
+}
+.section-latest-product{
+    text-align: center;
+    padding: 30px 0;
+}
+.product-title {
+    font-weight: bold;
+    color: #262626;
+    text-transform: capitalize!important;
+    letter-spacing: .2px;
+}
+.latest-product-menu {
+    padding: 30px 0;
+}
+.latest-product-menu li {
+    padding: 0 20px;
+}
+.latest-product-menu li a {
+    color: #262626;
+}
+.product-item {
+    border-bottom: 1px solid #ddd;
+    background: #f2f2f2;
+    padding: 15px;
+  }
+.product-content {
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+}
+.product-item .container {
+    padding: 10px;
+}
+
+  .col4 {
+    width: 33.3333333333%;
+
+  }
