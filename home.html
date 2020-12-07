@@ -2,434 +2,314 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/60debb73dd.js" crossorigin="anonymous"></script>
+  <title>Document</title>
 </head>
 
 <body>
-    <header class="page-header">
-        <div class="header-top">
-            <div class="container inline-content">
-                <span class="header-content">Free shipping on domestic orders over $150</span>
-                <ul class="header-action">
-                    <li><a class="user-info" href="/">Login</a> / <a class="user-info" href="/">Register</a></li>
-                    <li class="language-dropdown">Language : <span class="expand-more" data-toggle="dropdown"
-                            aria-haspopup="true" aria-expanded="false" id="language-dropdown">En<span
-                                class="dropdown-arrow"></span></span>
-                        <ul class="language-menu">
-                            <li><a href="" alt="en">English</a></li>
-                            <li><a href="" alt="fr">Français</a></li>
-                            <li><a href="" alt="es">Español</a></li>
-                            <li><a href="" alt="de">Deutsch</a></li>
-                            <li><a href="" alt="pl">Polski</a></li>
-                            <li><a href="" alt="it">Italiano</a></li>
-                            <li><a href="" alt="nl">Nederlands</a></li>
-                            <li><a href="" alt="ru">Русский</a></li>
-                            <li><a href="" alt="ar">اللغة العربية</a></li>
-                        </ul>
-                    </li>
-                    <li class="currency-dropdown">Currency : <span class="expand-more" data-toggle="dropdown"
-                            id="currency-dropdown">EUR</span>
-                        <ul class="currency-menu">
-                            <li><a href=""></a>EUR</li>
-                            <li><a href=""></a>USD</li>
-                        </ul>
-                    </li>
-                </ul>
+  <header class="page-header">
+    <div class="header-top">
+      <div class="container c-flex">
+        <a href="" class="logo c-flex">
+          <img class="full-width" src="asset/image/logo.png" alt="">
+        </a>
+
+        <ul class="header-actions c-flex">
+          <li><a href=""><i class="fas fa-search"></i>
+            </a></li>
+          <li><a href=""><i class="fas fa-user"></i>
+            </a></li>
+          <li><a href=""><i class="fas fa-shopping-cart"></i>
+            </a></li>
+        </ul>
+      </div>
+    </div>
+    <!-- <div class="mobile-menu">
+      <ul class="top-menu">
+        <li class="category p-top-30">
+          <a class="dropdown-item" href="">
+
+            Home
+          </a>
+        </li>
+        <li class="category p-top-15">
+          <a class="dropdown-item">
+            Service
+          </a>
+        </li>
+        <li class="category p-top-15">
+          <a class="dropdown-item" href="">
+            Portfolio
+          </a>
+        </li>
+        <li class="category p-top-15">
+          <a class="dropdown-item" href="">
+            Blog
+          </a>
+        </li>
+        <li class="category p-top-15">
+          <a class="dropdown-item" href="">
+            Contact
+          </a>
+        </li>
+        <li class="category p-top-15">
+          <a class="dropdown-item" href="">
+            About Us
+          </a>
+        </li>
+      </ul>
+    </div> -->
+    <nav class="header-nav">
+      <div class="container c-flex">
+        <icon class="menu-bar fas fa-bars fa-2x hidden"></icon>
+        <ul class="header-menu c-flex">
+          <li><a href="">Home</a></li>
+          <li><a href="">Service</a></li>
+          <li><a href="">Portfolio</a></li>
+          <li><a href="">Blog</a></li>
+          <li><a href="">Contact</a></li>
+          <li><a href="">About Us</a></li>
+        </ul>
+        <!-- Reusable purposes -->
+        <ul class="socials c-flex">
+          <li><a href=""><i class="fa fa-facebook-square fa-2x"></i>
+            </a></li>
+          <li><a href=""><i class="fa fa-google-plus-square fa-2x"></i>
+            </a></li>
+          <li><a href=""><i class="fa fa-twitter-square fa-2x"></i>
+            </a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <main class="page-main">
+    <section class="section-slideshow">
+      <ul>
+        <li class="slide-item hidden"><img src="asset/image/slide1.jpg" alt=""></li>
+        <li class="slide-item hidden"><img src="asset/image/slide2.jpg" alt=""></li>
+      </ul>
+    </section>
+    <section class="section-product">
+      <div class="container">
+        <h2 class="section-title">top rentals</h2>
+        <ul class="product-list c-flex">
+          <li class="product-item col4">
+            <a href="#" class="product-img">
+              <img class="full-width" src="asset/image/product_1.jpg" alt="">
+            </a>
+            <div class="product-info">
+              <h3 class="product-name">Nekun Nam</h3>
+              <span class="product-price">$123</span>
             </div>
+            <!-- btn btn-primary | class reuseable -->
+            <a href="#" class="btn btn-primary btn-add-cart">View product</a>
+          </li>
+          <li class="product-item col4">
+            <a href="#" class="product-img">
+              <img class="full-width" src="asset/image/product_1.jpg" alt="">
+            </a>
+            <div class="product-info">
+              <h3 class="product-name">Alex Nguyen</h3>
+              <span class="product-price">$123</span>
+            </div>
+            <!-- btn btn-primary | class reuseable -->
+            <a href="#" class="btn btn-primary btn-add-cart">View product</a>
+          </li>
+          <li class="product-item col4">
+            <a href="#" class="product-img">
+              <img class="full-width" src="asset/image/product_1.jpg" alt="">
+            </a>
+            <div class="product-info">
+              <h3 class="product-name">Lee Nguyen</h3>
+              <span class="product-price">$123</span>
+            </div>
+            <!-- btn btn-primary | class reuseable -->
+            <a href="#" class="btn btn-primary btn-add-cart">View product</a>
+          </li>
+          <li class="product-item col4">
+            <a href="#" class="product-img">
+              <img class="full-width" src="asset/image/product_1.jpg" alt="">
+            </a>
+            <div class="product-info">
+              <h3 class="product-name">Mint</h3>
+              <span class="product-price">$123</span>
+            </div>
+            <!-- btn btn-primary | class reuseable -->
+            <a href="#" class="btn btn-primary btn-add-cart">View product</a>
+          </li>
+
+
+        </ul>
+        <a href="#" class="btn btn-primary btn-view-all">View All</a>
+
+      </div>
+    </section>
+    <section class="section-banner">
+      <div class="container">
+        <img class="full-width" src="asset/image/banner_deal_sale.png" alt="">
+      </div>
+    </section>
+    <section class="section-product">
+      <div class="container">
+        <h2 class="section-title">Top Sale</h2>
+        <ul class="product-list c-flex">
+          <li class="product-item col4">
+            <a href="#" class="product-img">
+              <img class="full-width" src="asset/image/product_1.jpg" alt="">
+            </a>
+            <div class="product-info">
+              <h3 class="product-name">Nekun Nam</h3>
+              <span class="product-price">$123</span>
+            </div>
+            <!-- btn btn-primary | class reuseable -->
+            <a href="#" class="btn btn-primary btn-add-cart">View product</a>
+          </li>
+          <li class="product-item col4">
+            <a href="#" class="product-img">
+              <img class="full-width" src="asset/image/product_1.jpg" alt="">
+            </a>
+            <div class="product-info">
+              <h3 class="product-name">Alex Nguyen</h3>
+              <span class="product-price">$123</span>
+            </div>
+            <!-- btn btn-primary | class reuseable -->
+            <a href="#" class="btn btn-primary btn-add-cart">View product</a>
+          </li>
+          <li class="product-item col4">
+            <a href="#" class="product-img">
+              <img class="full-width" src="asset/image/product_1.jpg" alt="">
+            </a>
+            <div class="product-info">
+              <h3 class="product-name">Lee Nguyen</h3>
+              <span class="product-price">$123</span>
+            </div>
+            <!-- btn btn-primary | class reuseable -->
+            <a href="#" class="btn btn-primary btn-add-cart">View product</a>
+          </li>
+          <li class="product-item col4">
+            <a href="#" class="product-img">
+              <img class="full-width" src="asset/image/product_1.jpg" alt="">
+            </a>
+            <div class="product-info">
+              <h3 class="product-name">Mint</h3>
+              <span class="product-price">$123</span>
+            </div>
+            <!-- btn btn-primary | class reuseable -->
+            <a href="#" class="btn btn-primary btn-add-cart">View product</a>
+          </li>
+        </ul>
+        <a href="#" class="btn btn-primary btn-view-all">View All</a>
+
+      </div>
+    </section>
+    <section class="section-partner">
+      <div class="container">
+        <ul class="partner-list c-flex">
+          <li class="partner-item">
+            <a href=""><img src=" asset/image/partner_1.jpg" alt=""></a>
+          </li>
+          <li class="partner-item">
+            <a href=""><img src="asset/image/partner_2.jpg" alt=""></a>
+          </li>
+          <li class="partner-item">
+            <a href=""><img src="asset/image/partner_3.jpg" alt=""></a>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </main>
+  <footer class="page-footer">
+    <div class="footer-top">
+      <div class="container c-flex">
+        <form class="footer-newsletter">
+          <label for="">Newletter</label>
+          <input type="text">
+          <button type="submit"><i class="fas fa-paper-plane"></i></button>
+        </form>
+        <!-- Reusable purposes -->
+        <ul class="socials c-flex">
+          <li><span>Follow on</span></li>
+          <li><a href=""><i class="fa fa-facebook-square"></i>
+            </a></li>
+          <li><a href=""><i class="fa fa-google-plus-square"></i>
+            </a></li>
+          <li><a href=""><i class="fa fa-twitter-square"></i>
+            </a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-middle">
+      <div class="container c-flex">
+        <div class="footer-middle-col col3">
+          <h3>Store Information</h3>
+          <div class="clearfix hidden" data-toggle="collapse">
+            <span class="h3">Store information</span>
+            <span class="pull-xs-right">
+              <span class="navbar-toggler collapse-icons">
+                <i class="fas fa-chevron-down"></i>
+              </span>
+            </span>
+          </div>
+          <ul class="p-top-15">
+            <li class="p-top-15"><span>Address: 22 Truong Han Sieu, DN</span></li>
+            <li class="p-top-15"><span>Phone: 0935888128</span><a href=""></a></li>
+            <li class="p-top-15"><span>email: namnguyen2@asiantech.vn</span></li>
+          </ul>
         </div>
-        <div class="header-bottom">
-            <div class="container inline-content">
-                <a href="/" class="logo">
-                    <img src="https://demo.codezeel.com/prestashop/PRS15/PRS150372/img/demo-store-logo-1599648370.jpg"
-                        alt="logo">
-                </a>
-                <nav class="header-nav">
-                    <ul>
-                        <li><a href=""></a>Fashion</li>
-                        <li><a href=""></a>Girls Dress</li>
-                        <li><a href=""></a>Men Shoes</li>
-                        <li><a href=""></a>Men Shirt</li>
-                        <li><a href=""></a>Blog</li>
-                        <li><a href=""></a>More</li>
-                    </ul>
-                </nav>
-                <ul class="header-action">
-                    <li class="search-button"><a class="white-text" href="/">.</a></li>
-                    <li class="favorite-button"><a class="white-text" href="/">.</a></li>
-                    <li class="cart-button"><a class="white-text" href="/"></a>.</li>
-                </ul>
-            </div>
+        <div class="footer-middle-col col3">
+          <h3>Our Company</h3>
+          <div class="clearfix hidden" data-toggle="collapse">
+            <span class="h3">Our Company</span>
+            <span class="pull-xs-right">
+              <span class="navbar-toggler collapse-icons">
+                <i class="fas fa-chevron-down"></i>
+              </span>
+            </span>
+          </div>
+          <ul class="p-top-15">
+            <li class="p-top-15"><a href="">Delivery</a></li>
+            <li class="p-top-15"><a href="">Legal Notice</a></li>
+            <li class="p-top-15"><a href="">Terms and conditions of use
+              </a></li>
+            <li p-top-15><a href="">About us
+              </a></li>
+          </ul>
         </div>
-    </header>
-    <main class="page-main">
-        <section class="section-slider">
-            <img class="slider-top"
-                src="https://demo.codezeel.com/prestashop/PRS15/PRS150372/modules/cz_imageslider/views/img/sample-1.jpg">
-            <div class="slider-bottom">
-                <div class="container">
-                    <ul class="slider-list">
-                        <li><a href=""><i class="cate-icon"></i>Women T-Shirt</a></li>
-                        <li><a href=""><i></i>Girls Dress</a></li>
-                        <li><a href=""><i></i>Men Shoes</a></li>
-                        <li><a href=""><i></i>Men Shirt</a></li>
-                        <li><a href=""><i></i>Hand Watch</a></li>
-                        <li><a href=""><i></i>Girls Sandals</a></li>
-                        <li><a href=""><i></i>Shorts</a></li>
-                        <li><a href=""><i></i>Skirt</a></li>
-                    </ul>
-                </div>
-            </div>
-        </section>
-        <section class="section-latest-product">
-            <div class="container">
-                <h2 class="product-title">Latest Collection</h2>
-                <ul class="latest-product-menu">
-                    <li><a href="">Dresses & Jumpsuits</a></li>
-                    <li><a href="">Women T-Shirt</a></li>
-                    <li><a href="">Jackets & Blaze</a></li>
-                </ul>
-                <ul class="product-list">
-                    <li class="product-item col4">
-                        <div class="product-item-container">
-                            <a href="
-                            /"><img src="https://demo.codezeel.com/prestashop/PRS15/PRS150372/img/p/2/2-home_default.jpg"
-                                    alt="">
-                            </a>
-                            <i></i>
-                            <h3>Consectetur Hampden</h3>
-                            <span class="regular-price">$117.44</span><span class="discount-percentage">-20%</span><span
-                                class="price">$93.95</span>
-                            <button class="add-to-cart" type="submit">
-                                Add to cart
-                            </button>
-                        </div>
-                    </li>
-                    <li class="product-item col4">
-                        <div class="product-item-container">
-                            <a href="
-                            /"><img src="https://demo.codezeel.com/prestashop/PRS15/PRS150372/img/p/8/8-home_default.jpg"
-                                    alt="">
-                            </a>
-                            <i></i>
-                            <h3>Consectetur Hampden Omnis</h3>
-                            <span class="regular-price">$117.44</span><span class="discount-percentage">-20%</span><span
-                                class="price">$93.95</span>
-                            <button class="add-to-cart" type="submit">
-                                Add to cart
-                            </button>
-                        </div>
-                    </li>
-                    <li class="product-item col4">
-                        <div class="product-item-container">
-                            <a href="
-                            /"><img src="https://demo.codezeel.com/prestashop/PRS15/PRS150372/img/p/2/0/20-home_default.jpg"
-                                    alt="">
-                            </a>
-                            <i></i>
-                            <h3>Consectetur Hampden</h3>
-                            <span class="regular-price">$117.44</span><span class="discount-percentage">-20%</span><span
-                                class="price">$93.95</span>
-                            <button class="add-to-cart" type="submit">
-                                Add to cart
-                            </button>
-                        </div>
-                    </li>
-                    <li class="product-item col4">
-                        <div class="product-item-container">
-                            <a href="
-                            /"><img src="https://demo.codezeel.com/prestashop/PRS15/PRS150372/img/p/2/0/20-home_default.jpg"
-                                    alt="">
-                            </a>
-                            <i></i>
-                            <h3>Consectetur Hampden</h3>
-                            <span class="regular-price">$117.44</span><span class="discount-percentage">-20%</span><span
-                                class="price">$93.95</span>
-                            <button class="add-to-cart" type="submit">
-                                Add to cart
-                            </button>
-                        </div>
-                    </li>
-                    <li class="product-item col4">
-                        <div class="product-item-container">
-                            <a href="
-                            /"><img src="https://demo.codezeel.com/prestashop/PRS15/PRS150372/img/p/2/2-home_default.jpg"
-                                    alt="">
-                            </a>
-                            <i></i>
-                            <h3>Consectetur Hampden</h3>
-                            <span class="regular-price">$117.44</span><span class="discount-percentage">-20%</span><span
-                                class="price">$93.95</span>
-                            <button class="add-to-cart" type="submit">
-                                Add to cart
-                            </button>
-                        </div>
-                    </li>
-                    <li class="product-item col4">
-                        <div class="product-item-container">
-                            <a href="
-                            /"><img src="https://demo.codezeel.com/prestashop/PRS15/PRS150372/img/p/8/8-home_default.jpg"
-                                    alt="">
-                            </a>
-                            <i></i>
-                            <h3>Consectetur Hampden Omnis</h3>
-                            <span class="regular-price">$117.44</span><span class="discount-percentage">-20%</span><span
-                                class="price">$93.95</span>
-                            <button class="add-to-cart" type="submit">
-                                Add to cart
-                            </button>
-                        </div>
-                    </li>
-                    <li class="product-item col4">
-                        <div class="product-item-container">
-                            <a href="
-                            /"><img src="https://demo.codezeel.com/prestashop/PRS15/PRS150372/img/p/2/0/20-home_default.jpg"
-                                    alt="">
-                            </a>
-                            <i></i>
-                            <h3>Consectetur Hampden</h3>
-                            <span class="regular-price">$117.44</span><span class="discount-percentage">-20%</span><span
-                                class="price">$93.95</span>
-                            <button class="add-to-cart" type="submit">
-                                Add to cart
-                            </button>
-                        </div>
-                    </li>
-                    <li class="product-item col4">
-                        <div class="product-item-container">
-                            <a href="
-                            /"><img src="https://demo.codezeel.com/prestashop/PRS15/PRS150372/img/p/2/0/20-home_default.jpg"
-                                    alt="">
-                            </a>
-                            <i></i>
-                            <h3>Consectetur Hampden</h3>
-                            <span class="regular-price">$117.44</span><span class="discount-percentage">-20%</span><span
-                                class="price">$93.95</span>
-                            <button class="add-to-cart" type="submit">
-                                Add to cart
-                            </button>
-                        </div>
-                    </li>
-                </ul>
-                <div class="view-more">
-                    <a class="all-product-link"
-                        href="https://demo.codezeel.com/prestashop/PRS15/PRS150372/index.php?id_category=4&amp;controller=category&amp;id_lang=1">
-                        View All Products
-                    </a>
-                </div>
-            </div>
-        </section>
-        <section class="section-service">
-            <div class="container">
-                <div class="service-area">
-                    <div class="service-third service1">
-                        <div class="service-content">
-                            <i class="service-icon icon1"></i>
-                            <p class="service-heading">Worldwide Shipping</p>
-                        </div>
-                        <p class="service-description">Lorem Ipsum is simply dummy text of the printing and
-                            typesetting industry.</p>
-                    </div>
-                    <div class="service-third service2">
-                        <div class="service-content">
-                            <i class="service-icon icon2"></i>
-                            <p class="service-heading">Easy 30 Day Returns</p>
-                        </div>
-                        <p class="service-description">Lorem Ipsum is simply dummy text of the printing and
-                            typesetting industry.</p>
-                    </div>
-                    <div class="service-third service3">
-                        <div class="service-content">
-                            <i class="service-icon icon3"></i>
-                            <p class="service-heading">Money Back Guarentee</p>
-                        </div>
-                        <p class="service-description">Lorem Ipsum is simply dummy text of the printing and
-                            typesetting industry.</p>
-
-                    </div>
-                </div>
-            </div>
-        </section>
-    </main>
-
-    <footer class="page-footer">
-        <div class="footer-top">
-            <div class="container">
-                <ul class="footer-block">
-                    <li class="block-contact">
-                        <h3 class=""><a href="">Store information</a></h3>
-                        <div class="block-contact-responsive" data-target="#block-contact_list" data-toggle="collapse"
-                            aria-expanded="false">
-                            <span class="h3">Store information</span>
-                            <span class="pull-xs-right">
-                                <span class="navbar-toggler collapse-icons">
-                                    <i class="fa-icon add"></i>
-                                    <i class="fa-icon remove"></i>
-                                </span>
-                            </span>
-                        </div>
-                        <ul class="collapse">
-                            <li>
-                                <span>Styleway - Fashion Store<br>507-Union Trade ipsum Doler Centre<br>France</span>
-                            </li>
-                            <li>
-                                <span>000-000-0000</span>
-                            </li>
-                            <li>
-                                <span>123456</span>
-                            </li>
-                            <li>
-                                <span>sales@yourcompany.com</span>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="my-account_info">
-                        <h3 class="">
-                            <a href="">Your account</a>
-                        </h3>
-                        <div class="block-contact-responsive" data-target="#footer_account_list" data-toggle="collapse">
-                            <span class="h3">Your account</span>
-                            <span class="pull-xs-right">
-                                <span class="navbar-toggler collapse-icons">
-                                    <i class="fa-icon add"></i>
-                                    <i class="fa-icon remove"></i>
-                                </span>
-                            </span>
-                        </div>
-                        <ul class="collapse">
-                            <li>
-                                <a href="" title="Personal info">Personal info</a>
-                            </li>
-                            <li>
-                                <a href="">Orders</a>
-                            </li>
-                            <li>
-                                <a href="">Credit slips</a>
-                            </li>
-                            <li>
-                                <a href=""> </a>
-                            </li>
-
-                        </ul>
-                    </li>
-                    <li class="links-block">
-                        <h3 class="h3">Products</h3>
-                        <div class="block-contact-responsive" data-target="#footer_sub_menu_92710"
-                            data-toggle="collapse">
-                            <span class="">Products</span>
-                            <span class="pull-xs-right">
-                                <span class="navbar-toggler collapse-icons">
-                                    <i class="fa-icon add"></i>
-                                    <i class="fa-icon remove"></i>
-                                </span>
-                            </span>
-                        </div>
-                        <ul class="collapse">
-                            <li>
-                                <a id="link-product-page-prices-drop-1" class="cms-page-link" href="">
-                                    Prices drop
-                                </a>
-                            </li>
-                            <li>
-                                <a id="link-product-page-new-products-1" class="cms-page-link" href="">
-                                    New products
-                                </a>
-                            </li>
-                            <li>
-                                <a id="link-product-page-best-sales-1" class="cms-page-link" href="">
-                                    Best sales
-                                </a>
-                            </li>
-                            <li>
-                                <a id="link-static-page-contact-1" class="cms-page-link" href="">
-                                    Contact us
-                                </a>
-                            </li>
-                            <li>
-                                <a id="link-static-page-sitemap-1" class="cms-page-link" href="">
-                                    Sitemap
-                                </a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li>
-                        <h3 class="h3">Our company</h3>
-                        <div class="block-contact-responsive" data-target="#footer_sub_menu_7636"
-                            data-toggle="collapse">
-                            <span class="">Our company</span>
-                            <span class="pull-xs-right">
-                                <span class="navbar-toggler collapse-icons">
-                                    <i class="fa-icon add"></i>
-                                    <i class="fa-icon remove"></i>
-                                </span>
-                            </span>
-                        </div>
-                        <ul class="collapse">
-                            <li>
-                                <a id="link-cms-page-1-2" class="cms-page-link" href="">
-                                    Delivery
-                                </a>
-                            </li>
-                            <li>
-                                <a id="link-cms-page-2-2" class="cms-page-link" href="">
-                                    Legal Notice
-                                </a>
-                            </li>
-                            <li>
-                                <a id="link-cms-page-3-2" class="cms-page-link" href="">
-                                    Terms and conditions of use
-                                </a>
-                            </li>
-                            <li>
-                                <a id="link-cms-page-4-2" class="cms-page-link" href="">
-                                    About us
-                                </a>
-                            </li>
-                            <li>
-                                <a id="link-cms-page-5-2" class="cms-page-link" href="">
-                                    Secure payment
-                                </a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li>
-                        <div class="newsletter-detail">
-                            <h3 class="title"><span class="news1">Our Newsletter!</span></h3>
-                            <span class="desc">There are many variations</span>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-            <div class="footer-bottom">
-                <div class="container">
-                    <div class="copyright">
-                        <a class="_blank" href="http://www.prestashop.com" target="_blank">
-                            © 2020 - Ecommerce software by PrestaShop™
-                        </a>
-                    </div>
-                    <div id="payement_logo_block_left" class="payement_logo_block">
-                        <a
-                            href="https://demo.codezeel.com/prestashop/PRS15/PRS150372/index.php?id_cms=1&amp;controller=cms&amp;id_lang=1">
-                            <img src="https://demo.codezeel.com/prestashop/PRS15/PRS150372/modules/cz_blockpaymentlogo/views/img/visa.jpg"
-                                alt="visa" width="40" height="25">
-                            <img src="https://demo.codezeel.com/prestashop/PRS15/PRS150372/modules/cz_blockpaymentlogo/views/img/master_card.jpg"
-                                alt="master_card" width="40" height="25">
-                            <img src="https://demo.codezeel.com/prestashop/PRS15/PRS150372/modules/cz_blockpaymentlogo/views/img/american_express.jpg"
-                                alt="american_express" width="40" height="25">
-                            <img src="https://demo.codezeel.com/prestashop/PRS15/PRS150372/modules/cz_blockpaymentlogo/views/img/paypal.jpg"
-                                alt="paypal" width="40" height="25">
-                            <img src="https://demo.codezeel.com/prestashop/PRS15/PRS150372/modules/cz_blockpaymentlogo/views/img/ebay.png"
-                                alt="ebay" width="40" height="25">
-
-                        </a>
-                    </div>
-
-                </div>
-            </div>
+        <div class="footer-middle-col col3">
+          <h3>Map</h3>
+          <iframe class="p-top-30"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1971325.118001164!2d106.34887615718036!3d15.199787374593612!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31157a4d736a1e5f%3A0xb03bb0c9e2fe62be!2zVmnhu4d0IE5hbQ!5e0!3m2!1svi!2s!4v1605845123838!5m2!1svi!2s"
+            frameborder="0" style="border:0;width: 100%;" allowfullscreen="" aria-hidden="false" tabindex="0">
+          </iframe>
         </div>
-    </footer>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <p>Copyright Asian Tech Co, Ltd. 2020</p>
+      </div>
+    </div>
+  </footer>
+  <script>
+    var slideIndex = 0;
+    slideShow();
+
+    function slideShow() {
+      var i;
+      var x = document.getElementsByClassName("slide-item");
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";
+      }
+      slideIndex++;
+      if (slideIndex > x.length) { slideIndex = 1 }
+      x[slideIndex - 1].style.display = "block";
+      setTimeout(slideShow, 4000);
+    }
+  </script>
 </body>
 
 </html>
