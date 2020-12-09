@@ -1,117 +1,610 @@
+<html>
+
+</html>
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./styles.css">
 </head>
 
 <body>
-    <header class="page-header">
-        <div class="header-nav">
-            <div class="container">
-                <span class="nav-left">Free shipping on domestic orders over $150</span>
-                <ul class="nav-right">
-                    <li><a href="">Login</a> / <a href="">Register</a></li>
-                    <li>Language : <span data-toggle="dropdown" id="language-dropdown"></span>
-                        <ul>
-                            <li><a href="/" alt="en">English</a></li>
-                            <li><a href="/" alt="fr">Français</a></li>
-                            <li><a href="/" alt="es">Español</a></li>
-                            <li><a href="/" alt="de">Deutsch</a></li>
-                            <li><a href="/" alt="pl">Polski</a></li>
-                            <li><a href="/" alt="it">Italiano</a></li>
-                            <li><a href="/" alt="nl">Nederlands</a></li>
-                            <li><a href="/" alt="ru">Русский</a></li>
-                            <li><a href="/" alt="ar">اللغة العربية</a></li>
-                        </ul>
-                    </li>
-                    <li>Currency : <span data-toggle="dropdown" id="currency-dropdown"></span>
-                        <ul>
-                            <li><a href=""></a></li>
-                            <li><a href=""></a></li>
-                        </ul>
-                    </li>
-                </ul>
-            </div>
+  <header class="page-header">
+    <div class="header-top py-15 content">
+      <div class="container">
+        <div class="row row-no-gutters space-between">
+          <span class="">Free shipping on domestic orders over $150</span>
+          <ul class="header-action row">
+            <li><a class="content" href="/">Login</a> / <a class="content" href="/">Register</a></li>
+            <li class="language-dropdown ml-25">Language : <span class="expand-more" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false" id="language-dropdown">En<span
+                  class="dropdown-arrow"></span></span>
+              <ul class="hidden">
+                <li><a href="" alt="en">English</a></li>
+                <li><a href="" alt="fr">Français</a></li>
+                <li><a href="" alt="es">Español</a></li>
+                <li><a href="" alt="de">Deutsch</a></li>
+                <li><a href="" alt="pl">Polski</a></li>
+                <li><a href="" alt="it">Italiano</a></li>
+                <li><a href="" alt="nl">Nederlands</a></li>
+                <li><a href="" alt="ru">Русский</a></li>
+                <li><a href="" alt="ar">اللغة العربية</a></li>
+              </ul>
+            </li>
+            <li class="currency-dropdown ml-25">Currency : <span class="expand-more" data-toggle="dropdown"
+                id="currency-dropdown">EUR</span>
+              <ul class="hidden">
+                <li><a href=""></a>EUR</li>
+                <li><a href=""></a>USD</li>
+              </ul>
+            </li>
+          </ul>
         </div>
-        <div class="header-top">
-            <div class="container">
-                <a href="/" class="logo">
-                    <img src="" alt="logo">
-                </a>
-                <ul class="header-menu">
-                    <li><a href="/">Fashion</a></li>
-                    <li><a href="/">Girls Dress</a></li>
-                    <li><a href="/">Men Shoes</a></li>
-                    <li><a href="/">Men Shirt</a></li>
-                    <li><a href="/">Blog</a></li>
-                    <li><a href="/">More</a></li>
-                </ul>
-                <ul class="header-action">
-                    <li><a href="/"><i></i></a></li>
-                    <li><a href="/"><i></i></a></li>
-                    <li><a href="/"><i></i></a></li>
-                </ul>
-            </div>
-
-        </div>
-    </header>
-    <main class=" page-main">
-        <section class="section-slider">
-            <ul class="section-slider-top">
-                <li><a href=""></a></li>
-                <li><a href=""></a></li>
-                <li><a href=""></a></li>
+      </div>
+    </div>
+    <div class="header-bottom py-20">
+      <div class="container">
+        <div class="row space-between mx-0">
+          <a href="/" class="logo">
+            <img src="https://demo.codezeel.com/prestashop/PRS15/PRS150372/img/demo-store-logo-1599648370.jpg"
+              alt="logo">
+          </a>
+          <nav class="header-nav">
+            <ul class="row">
+              <li class="ml-30"><a href=""></a>Fashion</li>
+              <li class="ml-30"><a href=""></a>Girls Dress</li>
+              <li class="ml-30"><a href=""></a>Men Shoes</li>
+              <li class="ml-30"><a href=""></a>Men Shirt</li>
+              <li class="ml-30"><a href=""></a>Blog</li>
+              <li class="ml-30"><a href=""></a>More</li>
             </ul>
-            <div class="section-slider-bottom">
-                <div class="container">
-                    <ul class="slider-list">
-                        <li><a href=""><i></i>Women T-Shirt</a></li>
-                        <li><a href=""><i></i>Girls Dress</a></li>
-                        <li><a href=""><i></i>Men Shoes</a></li>
-                        <li><a href=""><i></i>Men Shirt</a></li>
-                        <li><a href=""><i></i>Hand Watch</a></li>
-                        <li><a href=""><i></i>Girls Sandals</a></li>
-                        <li><a href=""><i></i>Shorts</a></li>
-                        <li><a href=""><i></i>Skirt</a></li>
-                    </ul>
-                </div>
+          </nav>
+          <ul class="header-action row">
+            <li><a class="icon search-icon ml-20" href="/">.</a></li>
+            <li><a class="icon favorite-icon ml-20" href="/">.</a></li>
+            <li><a class="icon cart-icon ml-20" href="/">.</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main class="page-main">
+    <section class="section-slideshow">
+      <ul>
+        <li class="slide-item hidden"><img src="assets/image/slide1.jpg" alt=""></li>
+        <li class="slide-item hidden"><img src="assets/image/slide2.jpg" alt=""></li>
+      </ul>
+    </section>
+    <section class="slider-bottom py-20">
+      <div class="container">
+        <ul class="slider-list row">
+          <li class="col-2"><a href=""><i></i>Women T-Shirt</a></li>
+          <li class="col-2"><a href=""><i></i>Girls Dress</a></li>
+          <li class="col-2"><a href=""><i></i>Men Shoes</a></li>
+          <li class="col-2"><a href=""><i></i>Men Shirt</a></li>
+          <li class="col-2"><a href=""><i></i>Hand Watch</a></li>
+          <li class="col-2"><a href=""><i></i>Girls Sandals</a></li>
+        </ul>
+      </div>
+    </section>
+    <section class="section-product mt-45 pt-25">
+      <div class="container">
+        <h2 class="section-title py-20">Latest Collection</h2>
+        <ul class="latest-product-menu row py-20 my-10">
+          <li class="mr-30"><a href="">Dresses & Jumpsuits</a></li>
+          <li class="mr-30"><a href="">Women T-Shirt</a></li>
+          <li class="mr-30"><a href="">Jackets & Blaze</a></li>
+        </ul>
+        <ul class="row">
+          <li class="col-3 mb-30">
+            <div class="product-item-container">
+              <a href="
+                  /"><img src="assets/image/product_1.jpg" alt="">
+              </a>
+              <i></i>
+              <p class="mt-10">Consectetur Hampden</p>
+              <p class="mt-10"><span class="regular-price">$117.44</span><span
+                  class="discount-percentage">-20%</span><span class="price">$93.95</span></p>
+              <button class="button add-to-cart mt-10" type="submit">
+                Add to cart
+              </button>
             </div>
-        </section>
-        <section class="section-latest-product">
-            <div class="container">
-                <h2 class="product-title">Latest Collection</h2>
-                <ul class="latest-product-menu">
-                    <li><a href="">Dresses & Jumpsuits</a></li>
-                    <li><a href="">Women T-Shirt</a></li>
-                    <li><a href="">Jackets & Blaze</a></li>
-                </ul>
-                <ul class="product-grid">
-                    <li class="product-item">
-                        <div class="product-item-container">
-                            <a href="
-                            /"><img src="" alt="">
-                            </a>
-
-                        </div>
-                    </li>
-                    <li class="product-item"></li>
-                    <li class="product-item"></li>
-                    <li class="product-item"></li>
-                    <li class="product-item"></li>
-                    <li class="product-item"></li>
-                    <li class="product-item"></li>
-                    <li class="product-item"></li>
-                </ul>
+          </li>
+          <li class="col-3">
+            <div class="product-item-container">
+              <a href="
+                  /"><img src="assets/image/product_2.jpg" alt="">
+              </a>
+              <i></i>
+              <p class="mt-10">Consectetur Hampden</p>
+              <p class="mt-10"><span class="regular-price">$117.44</span><span
+                  class="discount-percentage">-20%</span><span class="price">$93.95</span></p>
+              <button class="button add-to-cart mt-10" type="submit">
+                Add to cart
+              </button>
             </div>
-        </section>
-    </main>
-
-    <footer class="page-footer">
-
+          </li>
+          <li class="col-3">
+            <div class="product-item-container">
+              <a href="
+                  /"><img src="assets/image/product_3.jpg" alt="">
+              </a>
+              <i></i>
+              <p class="mt-10">Consectetur Hampden</p>
+              <p class="mt-10"><span class="regular-price">$117.44</span><span
+                  class="discount-percentage">-20%</span><span class="price">$93.95</span></p>
+              <button class="button add-to-cart mt-10" type="submit">
+                Add to cart
+              </button>
+            </div>
+          </li>
+          <li class="col-3">
+            <div class="product-item-container">
+              <a href="
+                  /"><img src="assets/image/product_4.jpg" alt="">
+              </a>
+              <i></i>
+              <p class="mt-10">Consectetur Hampden</p>
+              <p class="mt-10"><span class="regular-price">$117.44</span><span
+                  class="discount-percentage">-20%</span><span class="price">$93.95</span></p>
+              <button class="button add-to-cart mt-10" type="submit">
+                Add to cart
+              </button>
+            </div>
+          </li>
+          <li class="col-3">
+            <div class="product-item-container">
+              <a href="
+                  /"><img src="assets/image/product_5.jpg" alt="">
+              </a>
+              <i></i>
+              <p class="mt-10">Consectetur Hampden</p>
+              <p class="mt-10"><span class="regular-price">$117.44</span><span
+                  class="discount-percentage">-20%</span><span class="price">$93.95</span></p>
+              <button class="button add-to-cart mt-10" type="submit">
+                Add to cart
+              </button>
+            </div>
+          </li>
+          <li class="col-3">
+            <div class="product-item-container">
+              <a href="
+                  /"><img src="assets/image/product_6.jpg" alt="">
+              </a>
+              <i></i>
+              <p class="mt-10">Consectetur Hampden</p>
+              <p class="mt-10"><span class="regular-price">$117.44</span><span
+                  class="discount-percentage">-20%</span><span class="price">$93.95</span></p>
+              <button class="button add-to-cart mt-10" type="submit">
+                Add to cart
+              </button>
+            </div>
+          </li>
+          <li class="col-3">
+            <div class="product-item-container">
+              <a href="
+                  /"><img src="assets/image/product_7.jpg" alt="">
+              </a>
+              <i></i>
+              <p class="mt-10">Consectetur Hampden</p>
+              <p class="mt-10"><span class="regular-price">$117.44</span><span
+                  class="discount-percentage">-20%</span><span class="price">$93.95</span></p>
+              <button class="button add-to-cart mt-10" type="submit">
+                Add to cart
+              </button>
+            </div>
+          </li>
+          <li class="col-3">
+            <div class="product-item-container">
+              <a href="
+                  /"><img src="assets/image/product_8.jpg" alt="">
+              </a>
+              <i></i>
+              <p class="mt-10">Consectetur Hampden</p>
+              <p class="mt-10"><span class="regular-price">$117.44</span><span
+                  class="discount-percentage">-20%</span><span class="price">$93.95</span></p>
+              <button class="button add-to-cart mt-10" type="submit">
+                Add to cart
+              </button>
+            </div>
+          </li>
+        </ul>
+        <div class="view-more row my-20">
+          <button class="button" type="submit">
+            View All Product
+          </button>
+        </div>
+      </div>
+    </section>
+    <section class="section-banner my-40 py-30">
+      <div class="container">
+        <ul class="row">
+          <li class="col-4"><a>
+              <img src="assets/image/cms_banner_1.jpg" alt="cms-banner1">
+            </a></li>
+          <li class="col-4"><a>
+              <img src="assets/image/cms_banner_2.jpg" alt="cms-banner2">
+            </a></li>
+          <li class="col-4"><a>
+              <img src="assets/image/cms_banner_3.jpg" alt="cms-banner3">
+            </a></li>
+        </ul>
+      </div>
+    </section>
+    <section class="section-product">
+      <div class="container">
+        <h2 class="section-title py-20">Special Products</h2>
+        <ul class="latest-product-menu row py-20 my-10">
+          <li class="mr-30"><a href="">Dresses & Jumpsuits</a></li>
+          <li class="mr-30"><a href="">Women T-Shirt</a></li>
+          <li class="mr-30"><a href="">Jackets & Blaze</a></li>
+        </ul>
+        <ul class="row mt-30">
+          <li class="col-3 mb-30">
+            <div class="product-item-container">
+              <a href="
+                  /"><img src="assets/image/special_1.jpg" alt="">
+              </a>
+              <i></i>
+              <p class="mt-10">Consectetur Hampden</p>
+              <p class="mt-10"><span class="regular-price">$117.44</span><span
+                  class="discount-percentage">-20%</span><span class="price">$93.95</span></p>
+              <button class="button add-to-cart mt-10" type="submit">
+                Add to cart
+              </button>
+            </div>
+          </li>
+          <li class="col-3">
+            <div class="product-item-container">
+              <a href="
+                  /"><img src="assets/image/special_2.jpg" alt="">
+              </a>
+              <i></i>
+              <p class="mt-10">Consectetur Hampden</p>
+              <p class="mt-10"><span class="regular-price">$117.44</span><span
+                  class="discount-percentage">-20%</span><span class="price">$93.95</span></p>
+              <button class="button add-to-cart mt-10" type="submit">
+                Add to cart
+              </button>
+            </div>
+          </li>
+          <li class="col-3">
+            <div class="product-item-container">
+              <a href="
+                  /"><img src="assets/image/special_3.jpg" alt="">
+              </a>
+              <i></i>
+              <p class="mt-10">Consectetur Hampden</p>
+              <p class="mt-10"><span class="regular-price">$117.44</span><span
+                  class="discount-percentage">-20%</span><span class="price">$93.95</span></p>
+              <button class="button add-to-cart mt-10" type="submit">
+                Add to cart
+              </button>
+            </div>
+          </li>
+          <li class="col-3">
+            <div class="product-item-container">
+              <a href="
+                  /"><img src="assets/image/special_4.jpg" alt="">
+              </a>
+              <i></i>
+              <p class="mt-10">Consectetur Hampden</p>
+              <p class="mt-10"><span class="regular-price">$117.44</span><span
+                  class="discount-percentage">-20%</span><span class="price">$93.95</span></p>
+              <button class="button add-to-cart mt-10" type="submit">
+                Add to cart
+              </button>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="section-partner my-30">
+      <div class="container py-40">
+        <ul class="row justify-content-center">
+          <li class="partner-item col-2 ml-30">
+            <a href=""><img src="assets/image/partner_1.jpg" alt=""></a>
+          </li>
+          <li class="partner-item col-2 ml-30">
+            <a href=""><img src="assets/image/partner_2.jpg" alt=""></a>
+          </li>
+          <li class="partner-item col-2 ml-30">
+            <a href=""><img src="assets/image/partner_3.jpg" alt=""></a>
+          </li>
+          <li class="partner-item col-2 ml-30">
+            <a href=""><img src="assets/image/partner_4.jpg" alt=""></a>
+          </li>
+          <li class="partner-item col-2">
+            <a href=""><img src="assets/image/partner_5.jpg" alt=""></a>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="section-banner my-40 py-30">
+      <div class="container">
+        <ul class="row">
+          <li class="col-6"><a>
+              <video class="video-banner"
+                poster="https://demo.codezeel.com/prestashop/PRS15/PRS150372/modules/cz_videocmsblock/views/img/video-poster.jpg"></video>
+            </a></li>
+          <li class="col-6"><a class="banner-wrapper">
+            </a></li>
+        </ul>
+      </div>
+    </section>
+    <section class="section-product">
+      <div class="container">
+        <h2 class="section-title py-20">Our Latest Blog</h2>
+        <ul class="row mt-30">
+          <li class="col-3 mb-30">
+            <div class="product-item-container">
+              <a href="
+                  /"><img src="assets/image/b-blog-1.jpg" alt="">
+              </a>
+              <i></i>
+              <p class="mt-10">There are many variations of passages of Lorem Ipsum...</p>
+            </div>
+          </li>
+          <li class="col-3">
+            <div class="product-item-container">
+              <a href="
+                  /"><img src="assets/image/b-blog-2.jpg" alt="">
+              </a>
+              <i></i>
+              <p class="mt-10">The standard chunk of Lorem Ipsum used since the 1500s</p>
+            </div>
+          </li>
+          <li class="col-3">
+            <div class="product-item-container">
+              <a href="
+                  /"><img src="assets/image/b-blog-3.jpg" alt="">
+              </a>
+              <i></i>
+              <p class="mt-10">Lorem Ipsum is therefore always free from repetition...</p>
+            </div>
+          </li>
+          <li class="col-3">
+            <div class="product-item-container">
+              <a href="
+                  /"><img src="assets/image/b-blog-4.jpg" alt="">
+              </a>
+              <i></i>
+              <p class="mt-10">Many desktop publishing packages and web page editors</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="section-service mt-30">
+      <div class="container pt-40">
+        <ul class="row space-between">
+          <li class="col-3">
+            <div class="service-icon icon1"></div>
+            <div class="service-content">
+              <div class="service-heading">Worldwide Shipping</div>
+              <div class="service-description">Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry.
+              </div>
+            </div>
+          </li>
+          <li class="col-3">
+            <div class="service-icon icon2"></div>
+            <div class="service-content">
+              <div class="service-heading">Easy 30 Day Returns</div>
+              <div class="service-description">Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry.
+              </div>
+            </div>
+          </li>
+          <li class="col-3">
+            <div class="service-icon icon3"></div>
+            <div class="service-content">
+              <div class="service-heading">Money Back Guarentee</div>
+              <div class="service-description">Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry.
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <footer>
+      <div class="footer-top py-45">
+        <div class="container">
+          <ul class="row space-between">
+            <li class="col-3">
+              <h4 class="mb-15">
+                <a href="">Store Information</a>
+              </h4>
+              <ul class="collapse">
+                <li class="mb-10">
+                  <i class="fa fa-map-marker"></i>
+                  <p>Styleway - Fashion Store</p>
+                  <p>507-Union Trade ipsum Doler Centre</p>
+                  <p>France</p>
+                </li>
+                <li class="mb-10">
+                  <i class="fa fa-phone"></i>
+                  <span>000-000-0000</span>
+                </li>
+                <li class="mb-10">
+                  <i class="fa fa-fax"></i>
+                  <span>123456</span>
+                </li>
+                <li>
+                  <i class="fa fa-envelope-o"></i>
+                  <span>sales@yourcompany.com</span>
+                </li>
+              </ul>
+            </li>
+            <li class="col-2">
+              <h4 class="mb-15">
+                <a href="">Your Account</a>
+              </h4>
+              <ul class="account-list collapse">
+                <li class="mb-10">
+                  <a class="content" href="">
+                    Personal info
+                  </a>
+                </li>
+                <li class="mb-10">
+                  <a class="content" href="">
+                    Orders
+                  </a>
+                </li>
+                <li class="mb-10">
+                  <a class="content" href="">
+                    Credit slips
+                  </a>
+                </li>
+                <li class="mb-10">
+                  <a class="content" href="">
+                    Addresses
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li class="col-2">
+              <h4 class="mb-15">
+                <a href="">Products</a>
+              </h4>
+              <ul class="collapse block_content">
+                <li class="mb-10">
+                  <a class="content" href="">
+                    Prices drop
+                  </a>
+                </li>
+                <li class="mb-10">
+                  <a class="content" href="">
+                    New products
+                  </a>
+                </li>
+                <li class="mb-10">
+                  <a class="content" href="">
+                    Best sales
+                  </a>
+                </li>
+                <li class="mb-10">
+                  <a class="content" href="">
+                    Contact us
+                  </a>
+                </li>
+                <li class="mb-10">
+                  <a class="content" href="">
+                    Sitemap
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li class="col-2">
+              <h4 class="mb-15">
+                <a href="">Our Company</a>
+              </h4>
+              <ul class="collapse block_content">
+                <li class="mb-10">
+                  <a class="content" href="">
+                    Delivery
+                  </a>
+                </li>
+                <li class="mb-10">
+                  <a class="content" href="">
+                    Legal Notice
+                  </a>
+                </li>
+                <li class="mb-10">
+                  <p>
+                    <a class="content" href="">
+                      Terms and conditions of use
+                    </a>
+                  </p>
+                </li>
+                <li class="mb-10">
+                  <a class="content" href="">
+                    About us
+                  </a>
+                </li>
+                <li class="mb-10">
+                  <a class="content" href="">
+                    Secure payment
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li class="col-3">
+              <h4 class="mb-15">
+                <a href="">Our Newsletter!</a>
+              </h4>
+              <p class="mb-10">There are many variations of passages of form humour, or randomised</p>
+              <div class="block_content">
+                <form>
+                  <div class="newsletter-form">
+                    <input class="mb-10" name="submitNewsletter" type="submit" value="Subscribe">
+                    <input class="mb-10" name="submitNewsletter" type="submit" value="OK">
+                    <div class="mb-10 input-wrapper">
+                      <input name="email" type="text" value="" placeholder="Your email address">
+                    </div>
+                  </div>
+                  <div class="newsletter-message">
+                    <p>You may unsubscribe at any moment. For that purpose, please find our contact info in the legal
+                      notice.</p>
+                  </div>
+                </form>
+              </div>
+              <div class="block-social">
+                <ul class="row">
+                  <li class="facebook"><a href="#" target="_blank"><span>Facebook</span></a></li>
+                  <li class="twitter"><a href="#" target="_blank"><span>Twitter</span></a></li>
+                  <li class="youtube"><a href="#" target="_blank"><span>YouTube</span></a></li>
+                  <li class="googleplus"><a href="#" target="_blank"><span>Google +</span></a></li>
+                  <li class="instagram"><a href="#" target="_blank"><span>Instagram</span></a></li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="container py-10">
+          <div class="row row-no-gutters space-between">
+            <div class="copyright">
+              <a class="" href="">
+                © 2020 - Ecommerce software by PrestaShop™
+              </a>
+            </div>
+            <div id="payement_logo_block_left" class="payement_logo_block">
+              <a href="">
+                <img class="mr-10" src="assets/image/visa.jpg" alt="visa" width="40" height="25">
+                <img class="mr-10" src="assets/image/master_card.jpg" alt="master_card" width="40" height="25">
+                <img class="mr-10" src="assets/image/american_express.jpg" alt="american_express" width="40"
+                  height="25">
+                <img class="mr-10" src="assets/image/paypal.jpg" alt="paypal" width="40" height="25">
+                <img class="mr-10" src="assets/image/ebay.png" alt="ebay" width="40" height="25">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
     </footer>
+  </main>
+  <script>
+    var slideIndex = 0;
+    slideShow();
+
+    function slideShow() {
+      var i;
+      var x = document.getElementsByClassName("slide-item");
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";
+      }
+      slideIndex++;
+      if (slideIndex > x.length) { slideIndex = 1 }
+      x[slideIndex - 1].style.display = "block";
+      setTimeout(slideShow, 4000);
+    }
+  </script>
 </body>
 
 </html>
