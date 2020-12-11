@@ -1,0 +1,18 @@
+.bg-primary {
+    background-color: map-get($colors, primary);
+}
+.bg-second {
+    background-color: map-get($colors, second);
+}
+.bg-green {
+    background-color: map-get($colors, green);
+}
+.bg-red-light {
+    background-color: map-get($colors, red-light);
+}
+.t-white {
+    color: map-get($colors, white);
+}
+.t-gray {
+    color: map-get($colors, text-gray);
+}

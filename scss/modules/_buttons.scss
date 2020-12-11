@@ -1,0 +1,11 @@
+.btn {
+    border: 0;
+    padding: 10px 30px;
+    font-weight: 500;
+    transition: none;
+    position: relative;
+}
+.btn-second {
+    color: #000;
+    background: map-get($colors, second);
+}
