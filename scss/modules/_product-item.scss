@@ -1,0 +1,8 @@
+.product-item {
+    p {
+        @include pxRem(margin-top, 10);
+    }
+    .btn {
+        min-width: 100%;
+    }
+}      

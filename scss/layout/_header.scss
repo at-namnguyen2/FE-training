@@ -1,0 +1,16 @@
+.page-header {
+  .header-top {
+    @include pxRem(padding, 15 0);
+    background-color: map-get($colors, primary);
+    color: map-get($colors , text-gray);
+  }
+  .header-bottom {
+    @include pxRem(padding, 20 0);
+    .header-nav {
+      @include pxRem(background-size, 20);
+      font-weight: 500;
+      text-transform: capitalize;
+      margin: auto 0;
+    }
+  }
+}

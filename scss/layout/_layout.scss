@@ -1,0 +1,45 @@
+// .slider-bottom {
+//     background-color:  map-get($colors, primary);
+// }
+// .slider-list {
+//     li {
+//         a {
+//         color:  map-get($colors, white);
+//         }
+//     }
+// }
+// .section-title {
+//     text-align: center;
+// }
+// .latest-product-menu{
+//     font-weight: 500;
+//     justify-content: center;
+// }
+.section-product {
+    .product-item-container {
+        .btn {
+            min-width: 100%;
+        }
+    }
+}
+.section-partner { 
+    .container {
+        border-top: 1px solid rgba(117, 117, 117, 0.50);
+    }
+}
+.video-banner {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 0;
+    width: 100%;
+}
+.banner-wrapper {
+    text-align: center;
+    background: url(https://demo.codezeel.com/prestashop/PRS15/PRS150372/themes/Styleway/assets/img/codezeel/testimonial-bkg.jpg)
+}
+.section-service { 
+    .container {
+        border-top: 1px solid rgba(117, 117, 117, 0.50);
+    }
+}
